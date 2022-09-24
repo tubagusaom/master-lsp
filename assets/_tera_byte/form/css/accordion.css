@@ -1,0 +1,43 @@
+#accordiontb .panel-default {
+  border-color: transparent;
+}
+
+#accordiontb .panel a {
+  text-decoration: none;
+}
+
+#accordiontb .panel .panel-heading {
+  background: #ddd;
+  padding: 8px;
+  border-radius: 4px 4px 0 0;
+}
+
+#accordiontb .panel .panel-body {
+  border: 1px solid #ddd;
+  /* border-color: #ddd; */
+  margin-bottom: 10px;
+}
+
+#accordiontb .panel .panel-title {
+  font-size: 15px;
+  margin-bottom: 0px;
+  color: #3e4061;
+}
+#accordiontb .panel a:hover .panel-title,
+#accordiontb .panel a:focus .panel-title,
+#accordiontb .panel a:active .panel-title {
+  color: #1f98cd;
+}
+
+#accordiontb .panel-heading .accordion-toggle:after {
+  /* font-family: 'Glyphicons Halflings'; */
+  content: "\2B9E";
+  float: right;
+  color: #1f98cd;
+  font-size: 14px;
+}
+
+#accordiontb .panel-heading .accordion-toggle.collapsed:after {
+  content: "\2B9F";
+  color: grey;
+}

@@ -1,0 +1,7 @@
+.htaccess
+index.php
+application/config/config.php
+application/config/database.php
+repo/asesi/*
+assets/files/admnistrasi/*
+repo/*

@@ -31,13 +31,13 @@
 
 #accordiontb .panel-heading .accordion-toggle:after {
   /* font-family: 'Glyphicons Halflings'; */
-  content: "\2B9E";
+  content: "\276E";
   float: right;
-  color: #1f98cd;
-  font-size: 14px;
+  color: grey;
+  font-size: 13px;
 }
 
-#accordiontb .panel-heading .accordion-toggle.collapsed:after {
-  content: "\2B9F";
+#accordiontb .collapsed .panel-heading .accordion-toggle:after {
+  content: "\276F";
   color: grey;
 }

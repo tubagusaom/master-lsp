@@ -33,10 +33,10 @@
             </div>
 
             <div class="card-footer bg-light p-2 d-flex justify-content-around">
-              <a class="btn btn-link m-0 text-reset " href="#" role="button" data-ripple-color="primary">
+              <a class="btn btn-info btn-sm m-0 text-reset " href="#" role="button" data-ripple-color="primary">
                 Download <i class="fa fa-download ms-2"></i>
               </a>
-              <a class="btn btn-link m-0 text-reset" href="#" role="button" data-ripple-color="primary">
+              <a class="btn btn-warning btn-sm m-0 text-reset" href="#" role="button" data-ripple-color="primary">
                 Pilih Skema <i class="fa fa-check-square-o ms-2"></i>
               </a>
             </div>
@@ -68,10 +68,10 @@
               </div>
             </div>
             <div class="card-footer bg-light p-2 d-flex justify-content-around">
-              <a class="btn btn-link m-0 text-reset " href="#" role="button" data-ripple-color="primary">
+              <a class="btn btn-info btn-sm m-0 text-reset " href="#" role="button" data-ripple-color="primary">
                 Download <i class="fa fa-download ms-2"></i>
               </a>
-              <a class="btn btn-link m-0 text-reset" href="#" role="button" data-ripple-color="primary">
+              <a class="btn btn-warning btn-sm m-0 text-reset" href="#" role="button" data-ripple-color="primary">
                 Pilih Skema <i class="fa fa-check-square-o ms-2"></i>
               </a>
             </div>

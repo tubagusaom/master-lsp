@@ -1,57 +1,57 @@
-#accordion5 .panel-default5 {
-  border-color: transparent;
-  font-size: 14px;
+#accordion .panel-default {
+  border-color: transparent!important;
+  font-size: 14px!important;
 }
 
-#accordion5 .panel-default5 a {
-  text-decoration: none;
+#accordion .panel-default a {
+  text-decoration: none!important;
 }
 
-#accordion5 .panel-body .text-muted {
-  font-size: 13px;
-  text-align: justify;
+#accordion .panel-body .text-muted {
+  font-size: 13px!important;
+  text-align: justify!important;
 }
 
-#accordion5 .panel-heading5 {
-  background: #ccc;
-  padding: 8px;
-  border-radius: 4px 4px 0 0;
-  margin-top: 10px;
+#accordion .panel-heading {
+  background: #ccc!important;
+  padding: 8px!important;
+  border-radius: 4px 4px 0 0!important;
+  margin-top: 10px!important;
 
-  -webkit-box-shadow: 0 8px 6px -6px #888;
-	   -moz-box-shadow: 0 8px 6px -6px #888;
-	        box-shadow: 0 8px 6px -6px #888;
+  -webkit-box-shadow: 0 8px 6px -6px #888!important;
+	   -moz-box-shadow: 0 8px 6px -6px #888!important;
+	        box-shadow: 0 8px 6px -6px #888!important;
 }
 
-#accordion5 .panel-heading5:hover {
-  background: #bbb;
+#accordion .panel-heading:hover {
+  background: #bbb!important;
 }
 
-#accordion5 .panel-body {
-  border:1px solid #ddd;
-  margin-bottom: 10px;
+#accordion .panel-body {
+  border:1px solid #ddd!important;
+  margin-bottom: 10px!important;
 }
 
-#accordion5 .panel-heading5 .panel-title5 {
-  font-size: 14px;
-  margin-bottom: 0px;
-  color: #3e4061;
+#accordion .panel-heading .panel-title {
+  font-size: 14px!important;
+  margin-bottom: 0px!important;
+  color: #3e4061!important;
 }
-/* #accordion5 .panel a:hover .panel-title5,
-#accordion5 .panel a:focus .panel-title5,
-#accordion5 .panel a:active .panel-title5 {
+/* #accordion .panel a:hover .panel-title,
+#accordion .panel a:focus .panel-title,
+#accordion .panel a:active .panel-title {
   color: #1f98cd;
 } */
 
-#accordion5 .panel-heading5 .accordion-toggle5:after {
+#accordion .panel-heading .accordion-toggle:after {
   /* font-family: 'Glyphicons Halflings'; */
   content: "\276E";
-  float: right;
-  color: grey;
-  font-size: 13px;
+  float: right!important;
+  color: grey!important;
+  font-size: 13px!important;
 }
 
-#accordion5 .collapsed .panel-heading5 .accordion-toggle5:after {
+#accordion .collapsed .panel-heading .accordion-toggle:after {
   content: "\276F";
-  color: grey;
+  color: grey!important;
 }

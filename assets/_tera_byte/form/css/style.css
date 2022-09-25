@@ -280,7 +280,7 @@ body {
     display: block;
     width: 100%;
     overflow: hidden;
-    background: #3e4061;
+    /* background: #3e4061; */
 		/* background: red; */
 
     border-radius: 0px 0px 10px 10px;
@@ -290,9 +290,6 @@ body {
 	-webkit-border-radius: 0px 0px 10px 10px;
 }
 .form-register .steps {
-
-	display: none;
-
     float: left;
     width: 120px;
     background: #3e4061;
@@ -391,16 +388,18 @@ body {
 	color: #1e8ea5;
 }
 .form-register .content {
-    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
+    /* float: right; */
+    /* width: 700px; */
+		/* min-height: 90vh; */
+
+    background: #fff;
+		/* background: green; */
+
+		box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
     -o-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
     -ms-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
     -moz-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
     -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
-    float: right;
-    width: 700px;
-		/* min-height: 90vh; */
-    background: #fff;
-		/* background: green; */
 }
 
 .form-register .content h2 {
@@ -661,8 +660,8 @@ body {
   font-size: 14px;
 }
 .actions {
-	float: right;
-    width: 700px;
+	/* float: right;
+    width: 700px; */
     background: #fff;
 }
 .actions ul {

@@ -6,8 +6,10 @@
         <p>Please enter your infomation and proceed to the next step so we can build your accounts.  </p>
       </div>
 
-      <input type="text" name="skema_yang_dipilih" id="skema_yang_dipilih">
-      <input type="text" name="step_langkah" id="step_langkah">
+      <input type="text" id="step_langkah" name="step_langkah">
+      <input type="text" id="skema_yg_dipilih" name="skema_yg_dipilih">
+
+      <button type="button" id="selanjutnya-3" class="nextBtn btn btn-success" name="button">Selanjutnya</button>
 
       <div class="form-row">
         <div class="form-holder">

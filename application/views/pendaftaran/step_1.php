@@ -55,16 +55,16 @@
 <script type="text/javascript">
 
   function pilih_skema(id) {
-    $('#skema_yang_dipilih').val(id);
+    $('#skema_yg_dipilih').val(id);
     $('#step_langkah').val('2');
 
     // alert($('#step_langkah').val());
   }
 
-    allNextBtnS = $('.nextBtn'),
-    allPrevBtnS = $('.prevBtn');
+  allNextBtnS = $('.nextBtn'),
+  allPrevBtnS = $('.prevBtn');
 
-    allNextBtnS.click(function (e) {
+  allNextBtnS.click(function (e) {
 
     step5     = $('#step_langkah').val();
 
@@ -88,46 +88,14 @@
     // alert(steps);
     }
 
-  });
+    $("#selanjutnya-3").on('click', function () {
+      idfDua.style.display = "none";
+      idfTiga.style.display = "block";
 
+      stepTiga.classList.remove("disabled");
+      stepTiga.classList.add("active2");
+    })
 
-
-  // allNextBtn = $('.nextBtn'),
-  // allPrevBtn = $('.prevBtn');
-  // var allNextBtn = document.getElementsByClassName("nextBtn");
-
-  // var selanjutnyaDua = document.getElementById("selanjutnya-2");
-
-  //
-  // allNextBtn.click(function (e) {
-  //   var steps_langkah = $('#step_langkah').val();
-  // });
-
-  // allNextBtn.click(function (e) {
-  // $(document).ready(function () {
-  // function pilih_skema(id) {
-
-    // var idfSatu = document.getElementById("form-total-p-0");
-    // var idfDua =  document.getElementById("form-total-p-1");
-    // var idfTiga = document.getElementById("form-total-p-2");
-    // var idfEmpat =document.getElementById("form-total-p-3");
-    //
-    // var stepSatu = document.getElementById("step1");
-    // var stepDua =  document.getElementById("step2");
-    // var stepTiga = document.getElementById("step3");
-    // var stepEmpat =document.getElementById("step4");
-    //
-    // // $("#selanjutnya-2").click(function (e) {
-    //
-    //   idfSatu.style.display = "none";
-    //   idfDua.style.display = "block";
-    //
-    //   stepDua.classList.remove("disabled");
-    //   stepDua.classList.add("active2");
-
-      // alert('ok');
-    // });
-
-  // });
+  })
 
 </script>

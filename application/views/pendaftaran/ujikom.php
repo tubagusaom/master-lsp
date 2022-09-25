@@ -11,7 +11,7 @@
 
 	<!-- Font-->
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/_tera_byte/form/css/opensans-font.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/_tera_byte/form/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/_tera_byte/form/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css"> -->
 
 	<link rel="stylesheet" href="<?php echo base_url() ?>assets/css/bootstraps/font-awesome.min.css" type="text/css"/>
 
@@ -119,12 +119,12 @@
 		  if (window.pageYOffset > sticky) {
 		    header.classList.add("sticky");
 				header.classList.add("shadow1");
-				header.classList.remove("shadow2");
+				// header.classList.remove("shadow2");
 
 		  } else {
 		    header.classList.remove("sticky");
 				header.classList.remove("shadow1");
-				header.classList.add("shadow2");
+				// header.classList.add("shadow2");
 		  }
 		}
 	</script>

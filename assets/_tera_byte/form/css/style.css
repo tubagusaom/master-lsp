@@ -171,6 +171,7 @@ body {
 		width: 120px;
 		margin:15px -35px 15px 35px;
 	}
+
 	.step-text{
 		display: none;
 	}
@@ -287,6 +288,9 @@ body {
 	-webkit-border-radius: 0px 0px 10px 10px;
 }
 .form-register .steps {
+
+	display: none;
+
     float: left;
     width: 120px;
     background: #3e4061;

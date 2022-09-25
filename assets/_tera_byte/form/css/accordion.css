@@ -1,18 +1,18 @@
-#accordion .panel-default {
+#accordionTB .panel-default {
   border-color: transparent;
   font-size: 14px;
 }
 
-#accordion .panel a {
+#accordionTB .panel a {
   text-decoration: none;
 }
 
-#accordion .panel-default .panel-body .text-muted {
+#accordionTB .panel-default .panel-body .text-muted {
   font-size: 13px;
   text-align: justify;
 }
 
-#accordion .panel .panel-heading {
+#accordionTB .panel .panel-heading {
   background: #ccc;
   padding: 8px;
   border-radius: 4px 4px 0 0;
@@ -23,27 +23,27 @@
 	        box-shadow: 0 8px 6px -6px #888;
 }
 
-#accordion .panel .panel-heading:hover {
+#accordionTB .panel .panel-heading:hover {
   background: #bbb;
 }
 
-#accordion .panel .panel-body {
+#accordionTB .panel .panel-body {
   border:1px solid #ddd;
   margin-bottom: 10px;
 }
 
-#accordion .panel .panel-title {
+#accordionTB .panel .panel-title {
   font-size: 14px;
   margin-bottom: 0px;
   color: #3e4061;
 }
-/* #accordion .panel a:hover .panel-title,
-#accordion .panel a:focus .panel-title,
-#accordion .panel a:active .panel-title {
+/* #accordionTB .panel a:hover .panel-title,
+#accordionTB .panel a:focus .panel-title,
+#accordionTB .panel a:active .panel-title {
   color: #1f98cd;
 } */
 
-#accordion .panel-heading .accordion-toggle:after {
+#accordionTB .panel-heading .accordion-toggle:after {
   /* font-family: 'Glyphicons Halflings'; */
   content: "\276E";
   float: right;
@@ -51,7 +51,7 @@
   font-size: 13px;
 }
 
-#accordion .collapsed .panel-heading .accordion-toggle:after {
+#accordionTB .collapsed .panel-heading .accordion-toggle:after {
   content: "\276F";
   color: grey;
 }

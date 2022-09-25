@@ -41,13 +41,13 @@
 		<div id="formHeader" class="form-header">
 			<div class="wizard-header-2">
 				<ul class="wizard2">
-				  <li class="active2">
+				  <li>
 				    <span>Skema</span>
 				  </li>
 				  <li>
 				    <span>APL-01</span>
 				  </li>
-				  <li>
+				  <li class="active2">
 				    <span>Dokumen</span>
 				  </li>
 				  <li>

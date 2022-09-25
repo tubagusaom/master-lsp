@@ -6,7 +6,7 @@
   text-decoration: none;
 }
 
-#accordion .panel .panel-heading {
+#panelTB .panel-heading {
   background: #ddd;
   padding: 8px;
   border-radius: 4px 4px 0 0;

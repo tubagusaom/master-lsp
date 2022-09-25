@@ -6,15 +6,15 @@
       <p>Silahkan pilih salah satu skema yang akan diujikan </p>
     </div>
 
-    <div id="accordionTB" class="panel-group">
+    <div id="accordion5" class="panel-group5">
 
       <?php foreach ($data_skema as $key => $value) { ?>
 
-      <div class="panel panel-default">
+      <div class="panel5 panel-default5">
 
-        <a data-toggle="collapse" data-parent="#accordionTB" href="#collapse<?=$key?>">
-          <div class="panel-heading">
-            <h4 class="panel-title accordion-toggle">
+        <a data-toggle="collapse" data-parent="#accordion5" href="#collapse<?=$key?>">
+          <div class="panel-heading5">
+            <h4 class="panel-title5 accordion-toggle5">
               <?=$key+1?>. <?= $value->skema ?>
             </h4>
           </div>

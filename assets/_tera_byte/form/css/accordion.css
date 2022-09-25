@@ -1,18 +1,19 @@
-#accordion .panel-default {
+.panel-default {
   border-color: transparent!important;
   font-size: 14px!important;
 }
 
-#accordion .panel-default a {
+.panel-default .a-panel {
+  color: #ccc!important;
   text-decoration: none!important;
 }
 
-#accordion .panel-body .text-muted {
+.panel-body .text-muted {
   font-size: 13px!important;
   text-align: justify!important;
 }
 
-#accordion .panel-heading {
+.panel-heading {
   background: #ccc!important;
   padding: 8px!important;
   border-radius: 4px 4px 0 0!important;
@@ -23,27 +24,27 @@
 	        box-shadow: 0 8px 6px -6px #888!important;
 }
 
-#accordion .panel-heading:hover {
+.panel-heading:hover {
   background: #bbb!important;
 }
 
-#accordion .panel-body {
+.panel-body {
   border:1px solid #ddd!important;
   margin-bottom: 10px!important;
 }
 
-#accordion .panel-heading .panel-title {
+.panel-title {
   font-size: 14px!important;
   margin-bottom: 0px!important;
   color: #3e4061!important;
 }
-/* #accordion .panel a:hover .panel-title,
-#accordion .panel a:focus .panel-title,
-#accordion .panel a:active .panel-title {
+/* .panel a:hover .panel-title,
+.panel a:focus .panel-title,
+.panel a:active .panel-title {
   color: #1f98cd;
 } */
 
-#accordion .panel-heading .accordion-toggle:after {
+.panel-heading .accordion-toggle:after {
   /* font-family: 'Glyphicons Halflings'; */
   content: "\276E";
   float: right!important;
@@ -51,7 +52,7 @@
   font-size: 13px!important;
 }
 
-#accordion .collapsed .panel-heading .accordion-toggle:after {
+.collapsed .panel-heading .accordion-toggle:after {
   content: "\276F";
   color: grey!important;
 }

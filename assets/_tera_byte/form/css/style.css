@@ -271,7 +271,9 @@ body {
 } */
 
 
-
+.steps{
+	display: none;
+}
 
 
 .form-register .vertical {

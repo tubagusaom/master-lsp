@@ -12,7 +12,7 @@
 
       <div class="panel panel-default">
 
-        <a class="" data-toggle="collapse" data-parent="#accordion" href="#collapse<?=$key?>">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse<?=$key?>">
           <div class="panel-heading">
             <h4 class="panel-title accordion-toggle">
               <?=$key+1?>. <?= $value->skema ?>

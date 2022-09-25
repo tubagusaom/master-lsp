@@ -10,7 +10,7 @@
 
       <?php foreach ($data_skema as $key => $value) { ?>
 
-      <div id="panelTB" class="panel panel-default">
+      <div class="panel panel-default">
 
         <a data-toggle="collapse" data-parent="#accordion" href="#collapse<?=$key?>">
           <div class="panel-heading">

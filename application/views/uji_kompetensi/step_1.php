@@ -54,7 +54,7 @@
                     </legend>
                 </fieldset>
 
-               
+
 
                 <div class="row">
                     <div class="col-lg-12 col-xs-12">
@@ -118,6 +118,6 @@
         return false;
     });
     (function () {
-       
+
     }());
 </script>

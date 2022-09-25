@@ -181,7 +181,7 @@ class Welcome extends MY_Controller {
 
         $data['uri'] = $id;
 
-        // var_dump($data['genre']); die();
+        // var_dump($data['data_skema']); die();
 
         $this->load->view('pendaftaran/ujikom', $data);
         // $this->load->view('pendaftaran/test2', $data);

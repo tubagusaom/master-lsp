@@ -41,16 +41,16 @@
 		<div id="formHeader" class="form-header">
 			<div class="wizard-header-2">
 				<ul class="wizard2">
-				  <li>
+				  <li id="step1" class="active2">
 				    <span>Skema</span>
 				  </li>
-				  <li>
+				  <li id="step2" class="disabled">
 				    <span>APL-01</span>
 				  </li>
-				  <li class="active2">
+				  <li id="step3" class="disabled">
 				    <span>Dokumen</span>
 				  </li>
-				  <li>
+				  <li id="step4" class="disabled">
 				    <span>APL-02</span>
 				  </li>
 				</ul>
@@ -106,11 +106,13 @@
 
 	<script>
 
+		var base_url = "<?php echo base_url() ?>";
+
 		window.onscroll = function() {myFunction()};
 
 
 		var header = document.getElementById("formHeader");
-		var kontenx = document.getElementsByClassName("content");
+		// var kontenx = document.getElementsByClassName("content");
 
 		// var header = $('#formHeader');
 		var sticky = header.offsetTop;

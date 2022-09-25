@@ -6,6 +6,9 @@
         <p>Please enter your infomation and proceed to the next step so we can build your accounts.  </p>
       </div>
 
+      <input type="text" name="skema_yang_dipilih" id="skema_yang_dipilih">
+      <input type="text" name="step_langkah" id="step_langkah">
+
       <div class="form-row">
         <div class="form-holder">
           <fieldset>

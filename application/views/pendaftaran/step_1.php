@@ -8,11 +8,7 @@
 
     <div class="panel-group" id="accordiontb">
 
-      <input type="hidden" name="skema_yang_dipilih" id="skema_yang_dipilih"/>
-
-      <?php
-        foreach ($data_skema as $key => $value) {
-      ?>
+      <?php foreach ($data_skema as $key => $value) { ?>
 
       <div class="panel panel-default">
 
@@ -42,7 +38,7 @@
               <a class="btn btn-info btn-sm m-0" href="#" role="button" data-ripple-color="primary">
                 Download <i class="fa fa-download ms-2"></i>
               </a>
-              <a id="selanjutnya-2" class="nextBtn btn btn-warning btn-sm m-0" href="javascript:void(0)" onclick='pilih_skema(<?= $value->id; ?>)' role="menuitem">
+              <a href="javascript:void(0)" class="nextBtn btn btn-warning btn-sm m-0" onclick='pilih_skema(<?= $value->id; ?>)'>
                 Pilih Skema <i class="fa fa-check-square-o ms-2"></i>
               </a>
             </div>
@@ -57,43 +53,81 @@
 </section>
 
 <script type="text/javascript">
+
   function pilih_skema(id) {
     $('#skema_yang_dipilih').val(id);
     $('#step_langkah').val('2');
 
-    // alert(xxxt);
+    // alert($('#step_langkah').val());
   }
 
-  // allNextBtn = $('.nextBtn'),
-  // allPrevBtn = $('.prevBtn');
-  //
-  // allNextBtn.click(function (e) {
-  //   var steps_langkah = $('#step_langkah').val();
-  // });
+    allNextBtnS = $('.nextBtn'),
+    allPrevBtnS = $('.prevBtn');
 
-  $(document).ready(function () {
+    allNextBtnS.click(function (e) {
 
-    var idfSatu = document.getElementById("form-total-p-0");
-    var idfDua =  document.getElementById("form-total-p-1");
-    var idfTiga = document.getElementById("form-total-p-2");
-    var idfEmpat =document.getElementById("form-total-p-3");
+    step5     = $('#step_langkah').val();
 
-    var stepSatu = document.getElementById("step1");
-    var stepDua =  document.getElementById("step2");
-    var stepTiga = document.getElementById("step3");
-    var stepEmpat =document.getElementById("step4");
+    idfSatu   = document.getElementById("form-total-p-0");
+    idfDua    = document.getElementById("form-total-p-1");
+    idfTiga   = document.getElementById("form-total-p-2");
+    idfEmpat  = document.getElementById("form-total-p-3");
 
-    $("#selanjutnya-2").click(function (e) {
+    stepSatu  = document.getElementById("step1");
+    stepDua   = document.getElementById("step2");
+    stepTiga  = document.getElementById("step3");
+    stepEmpat = document.getElementById("step4");
 
+    if(step5 == "2") {
       idfSatu.style.display = "none";
       idfDua.style.display = "block";
 
       stepDua.classList.remove("disabled");
       stepDua.classList.add("active2");
 
-      // alert('ok');
-    });
+    // alert(steps);
+    }
 
   });
+
+
+
+  // allNextBtn = $('.nextBtn'),
+  // allPrevBtn = $('.prevBtn');
+  // var allNextBtn = document.getElementsByClassName("nextBtn");
+
+  // var selanjutnyaDua = document.getElementById("selanjutnya-2");
+
+  //
+  // allNextBtn.click(function (e) {
+  //   var steps_langkah = $('#step_langkah').val();
+  // });
+
+  // allNextBtn.click(function (e) {
+  // $(document).ready(function () {
+  // function pilih_skema(id) {
+
+    // var idfSatu = document.getElementById("form-total-p-0");
+    // var idfDua =  document.getElementById("form-total-p-1");
+    // var idfTiga = document.getElementById("form-total-p-2");
+    // var idfEmpat =document.getElementById("form-total-p-3");
+    //
+    // var stepSatu = document.getElementById("step1");
+    // var stepDua =  document.getElementById("step2");
+    // var stepTiga = document.getElementById("step3");
+    // var stepEmpat =document.getElementById("step4");
+    //
+    // // $("#selanjutnya-2").click(function (e) {
+    //
+    //   idfSatu.style.display = "none";
+    //   idfDua.style.display = "block";
+    //
+    //   stepDua.classList.remove("disabled");
+    //   stepDua.classList.add("active2");
+
+      // alert('ok');
+    // });
+
+  // });
 
 </script>

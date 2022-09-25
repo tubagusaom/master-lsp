@@ -132,13 +132,15 @@
 	</script>
 
 	<!-- jQuery -->
-	<script src="<?php echo base_url() ?>assets/_tera_byte/form/vendor/jquery.2.1.3/jquery.min.js"></script>
-	<!-- Bootstrap JS -->
-	<script src="<?php echo base_url() ?>assets/_tera_byte/form/vendor/bootstrap.3.3.4/js/bootstrap.min.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="<?php echo base_url();?>assets/_tera_byte/form/vendor/jquery.2.1.3/jquery.min.js"></script>
+	<!-- <script src="<?php echo base_url();?>assets/_tera_byte/form/js/jquery-3.3.1.min.js"></script> -->
 
-	<!-- <script src="<?php echo base_url() ?>assets/_tera_byte/form/js/jquery-3.3.1.min.js"></script> -->
-	<script src="<?php echo base_url() ?>assets/_tera_byte/form/js/jquery.steps.js"></script>
-	<script src="<?php echo base_url() ?>assets/_tera_byte/form/js/main.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="<?php echo base_url();?>assets/_tera_byte/form/vendor/bootstrap.3.3.4/js/bootstrap.min.js"></script>
+
+	<script src="<?php echo base_url();?>assets/_tera_byte/form/js/jquery.steps.js"></script>
+	<script src="<?php echo base_url();?>assets/_tera_byte/form/js/main.js"></script>
 
 
 

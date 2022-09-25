@@ -4,7 +4,6 @@
 }
 
 #accordion a {
-  color: #ccc!important;
   text-decoration: none!important;
 }
 
@@ -44,7 +43,7 @@
   color: #1f98cd;
 } */
 
-#accordion .panel-heading .accordion-toggle:after {
+#accordion .accordion-toggle:after {
   /* font-family: 'Glyphicons Halflings'; */
   content: "\276E";
   float: right!important;
@@ -52,7 +51,7 @@
   font-size: 13px!important;
 }
 
-#accordion .collapsed .panel-heading .accordion-toggle:after {
+#accordion .accordion-toggle:after {
   content: "\276F";
   color: grey!important;
 }

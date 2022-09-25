@@ -132,7 +132,7 @@
 	</script>
 
 	<!-- jQuery -->
-	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+	<!-- <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
 	<script src="<?php echo base_url();?>assets/_tera_byte/form/vendor/jquery.2.1.3/jquery.min.js"></script>
 	<!-- <script src="<?php echo base_url();?>assets/_tera_byte/form/js/jquery-3.3.1.min.js"></script> -->
 

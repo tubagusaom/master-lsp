@@ -6,7 +6,7 @@
       <p>Silahkan pilih salah satu skema yang akan diujikan </p>
     </div>
 
-    <div class="panel-group" id="accordionTB">
+    <div id="accordionTB" class="panel-group">
 
       <?php foreach ($data_skema as $key => $value) { ?>
 

@@ -16,7 +16,7 @@
 	<link rel="stylesheet" href="<?php echo base_url() ?>assets/css/bootstraps/font-awesome.min.css" type="text/css"/>
 
 	<!-- Bootstrap -->
-	<link rel="stylesheet" href="<?php echo base_url() ?>assets/_tera_byte/form/vendor/bootstrap.3.3.4/css/bootstraps.min.css">
+	<link rel="stylesheet" href="<?php echo base_url() ?>assets/_tera_byte/form/vendor/bootstrap.3.3.4/css/bootstrap.min.css">
 
 	<!-- Main Style Css -->
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/_tera_byte/form/css/style.css"/>

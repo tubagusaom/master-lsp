@@ -61,13 +61,6 @@
 			<div class="wizard-form">
 			      <form id="formRegister" class="form-register" action="#" method="post">
 
-							<!-- <div class="logo-form">
-								<a href="<?=base_url()?>" title="Kembali ke beranda">
-									<font><i class="fa fa-home"></i></font>
-									<img src="<?php echo base_url() ?>assets/img/logo1_transparent.png" alt="tera_byte">
-								</a>
-							</div> -->
-
 			        <div id="form-total">
 
 									<h2>
@@ -115,7 +108,9 @@
 
 		window.onscroll = function() {myFunction()};
 
+
 		var header = document.getElementById("formHeader");
+		var kontenx = document.getElementsByClassName("content");
 
 		// var header = $('#formHeader');
 		var sticky = header.offsetTop;
@@ -125,6 +120,7 @@
 		    header.classList.add("sticky");
 				header.classList.add("shadow1");
 				header.classList.remove("shadow2");
+
 		  } else {
 		    header.classList.remove("sticky");
 				header.classList.remove("shadow1");

@@ -176,7 +176,8 @@ class Welcome extends MY_Controller {
         $idlsp = kode_lsp();
         $data['data_skema'] = $this->welcome_model->data_skema($idlsp);
         $data['data_tuk'] = $this->welcome_model->data_tuk($idlsp);
-        $data['data_jadwal'] = $this->welcome_model->data_jadwal();
+        
+        // $data['data_jadwal'] = $this->welcome_model->data_jadwal();
         // $data['marquee'] = $this->artikel_model->marquee();
 
         $data['uri'] = $id;

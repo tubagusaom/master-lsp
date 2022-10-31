@@ -70,7 +70,7 @@ class MY_Controller extends CI_Controller {
         } else {
             $this->aplikasi = $this->db->get('r_konfigurasi_aplikasi')->row();
             $this->load->helper('cookie');
-             $check_visitor = get_cookie("lsp-ahi");
+             $check_visitor = get_cookie("tera.bytee");
              $ip = $this->input->ip_address();
              if ($check_visitor == false) {
                 $db = array(
@@ -78,7 +78,7 @@ class MY_Controller extends CI_Controller {
                     "waktu" => date('h:i:s'),
                     "tanggal" => date('Y-m-d'),
                 );
-                setcookie('lsp-ahi',$ip,time()+86500,'/');
+                setcookie('tera.bytee',$ip,time()+86500,'/');
                 $this->db->insert('t_counter',$db);
              }
              $pengunjungHariIni = count($this->db->where('tanggal',date('Y-m-d'))->get('t_counter')->result());

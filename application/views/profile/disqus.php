@@ -1,4 +1,4 @@
-<div id="disqus_thread"></div>
+<!-- <div id="disqus_thread"></div>
 <script>
 
 /**
@@ -20,4 +20,4 @@ s.setAttribute('data-timestamp', +new Date());
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 
-<script id="dsq-count-scr" src="//lsp-ahi.disqus.com/count.js" async></script>
+<script id="dsq-count-scr" src="//lsp-ahi.disqus.com/count.js" async></script> -->
